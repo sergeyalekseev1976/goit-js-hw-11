@@ -11,7 +11,7 @@ const loadMoreButton = document.querySelector('.load-more');
 let query = '';
 let totalHits = 0;
 let page = 1;
-const perPage = 20;
+const perPage = 40;
 
 searchForm.addEventListener('submit', onSubmit);
 loadMoreButton.addEventListener('click', onClick);
